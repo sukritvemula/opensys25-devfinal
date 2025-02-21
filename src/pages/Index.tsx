@@ -60,7 +60,8 @@ const Index = () => {
       date: "4th March 2025",
       venue: "Main Conference Hall",
       team: "Team of 2-3 Members",
-      prizes: "Exciting cash prizes!"
+      prizes: "Exciting cash prizes!",
+      registrationLink: "https://google.com"
     },
     {
       title: "Decipher Challenge",
@@ -70,7 +71,8 @@ const Index = () => {
       date: "5th March 2025",
       venue: "Auditorium B",
       team: "Solo or Team of 2",
-      prizes: "Exciting cash prizes!"
+      prizes: "Exciting cash prizes!",
+      registrationLink: "https://youtube.com"
     },
     {
       title: "Code Odyssey",
@@ -80,7 +82,8 @@ const Index = () => {
       date: "4th-5th March 2025",
       venue: "Workshop Rooms 1-3",
       team: "Individual Participation",
-      prizes: "Exciting cash prizes!"
+      prizes: "Exciting cash prizes!",
+      registrationLink: "https://github.com"
     }
   ];
 
@@ -113,19 +116,19 @@ const Index = () => {
     {
       name: 'GitHub',
       icon: Github,
-      href: 'https://github.com/cbitosc',
+      href: '#',
       hoverClass: 'hover:bg-[#333]/20 hover:text-white hover:shadow-white/20'
     },
     {
       name: 'Instagram',
       icon: Instagram,
-      href: 'https://www.instagram.com/cbitosc/',
+      href: '#',
       hoverClass: 'hover:bg-[#333]/20 hover:text-white hover:shadow-white/20'
     },
     {
       name: 'LinkedIn',
       icon: Linkedin,
-      href: 'https://www.linkedin.com/company/cbitosc',
+      href: '#',
       hoverClass: 'hover:bg-[#333]/20 hover:text-white hover:shadow-white/20'
     }
   ];
