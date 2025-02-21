@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 
 interface EventCardProps {
   title: string;
@@ -8,6 +9,7 @@ interface EventCardProps {
   venue: string;
   team: string;
   prizes: string;
+  registrationLink: string;
 }
 
 const EventCard = ({
@@ -18,7 +20,8 @@ const EventCard = ({
   date,
   venue,
   team,
-  prizes
+  prizes,
+  registrationLink,
 }: EventCardProps) => {
   return (
     <div className="glass-card rounded-xl p-6 transform hover:scale-[1.02] transition-all duration-300 flex flex-col h-full">
@@ -57,9 +60,10 @@ const EventCard = ({
           </div>
         </div>
 
-        <button className="w-full mt-4 bg-purple-600 hover:bg-purple-700 text-white px-6 py-2.5 rounded-full transition-colors duration-200 text-sm font-medium font-sora">
-          Register Now
-        </button>
+        <Link 
+              to={registrationLink}
+              className="w-full mt-4 bg-purple-600 hover:bg-purple-700 text-white px-6 py-2.5 rounded-full transition-colors duration-200 text-sm font-medium font-sora text-center"
+            >Registration Open</Link>
       </div>
     </div>
   );
