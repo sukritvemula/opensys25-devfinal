@@ -107,25 +107,25 @@ const Index = () => {
     {
       name: 'Discord',
       icon: MessageCircle,
-      href: '#',
+      href: 'https://discord.com/invite/BCBvtyPsEt',
       hoverClass: 'hover:bg-[#333]/20 hover:text-white hover:shadow-white/20'
     },
     {
       name: 'GitHub',
       icon: Github,
-      href: '#',
+      href: 'https://github.com/cbitosc',
       hoverClass: 'hover:bg-[#333]/20 hover:text-white hover:shadow-white/20'
     },
     {
       name: 'Instagram',
       icon: Instagram,
-      href: '#',
+      href: 'https://www.instagram.com/cbitosc/',
       hoverClass: 'hover:bg-[#333]/20 hover:text-white hover:shadow-white/20'
     },
     {
       name: 'LinkedIn',
       icon: Linkedin,
-      href: '#',
+      href: 'https://www.linkedin.com/company/cbitosc',
       hoverClass: 'hover:bg-[#333]/20 hover:text-white hover:shadow-white/20'
     }
   ];
